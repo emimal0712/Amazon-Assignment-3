@@ -1,0 +1,81 @@
+body {
+  background-color: #f3f3f3;
+  font-family: Arial, sans-serif;
+}
+
+.product-card {
+  padding: 10px;
+}
+
+.product-img {
+    width: auto;
+  max-height: 150px;
+}
+
+.product-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0f1111;
+}
+
+.rating {
+  font-size: 14px;
+  color: #ffa41c;
+}
+
+.rating span {
+  color: #555;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #b12704;
+}
+
+.mrp {
+  font-size: 14px;
+  text-decoration: line-through;
+  color: #565959;
+  margin-left: 8px;
+}
+
+.discount {
+  font-size: 14px;
+  color: #cc0c39;
+  margin-left: 6px;
+}
+
+.delivery {
+  font-size: 14px;
+  color: #565959;
+}
+
+.prime {
+  color: #00a8e1;
+  font-weight: bold;
+  margin-right: 6px;
+}
+
+/* Logo container */
+.logo {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+
+
+/* Logo image */
+.logo img {
+  height: 35px;
+  width: auto;
+  object-fit: contain;
+}
+
+.header {
+  background-color: #131921;
+  padding: 5px 15px;
+}
